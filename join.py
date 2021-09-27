@@ -13,4 +13,5 @@ for i in range(len(users)):
   else:print(users[i])
 
 # Method 3
-print(','.join(users))
+delimeter = ','
+print(delimeter.join(users))
