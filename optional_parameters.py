@@ -13,8 +13,7 @@ class Student(object):
       print(f'{self.name}, {self.age}, {self.country}')
       
     else:print(self.name)
-      
-
+           
 student_1 = Student('muhammed', 21)
 student_1.info()
 student_1.info(False)
